@@ -36,3 +36,8 @@ ListeChainee >> AjouterEnTete: nouvelleValeur [
 ListeChainee >> tete [
 	^tete
 ]
+
+{ #category : #accessing }
+ListeChainee >> tete: objElement [
+	tete:= objElement
+]
