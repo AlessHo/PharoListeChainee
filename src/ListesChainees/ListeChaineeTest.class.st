@@ -5,7 +5,7 @@ Class {
 }
 
 { #category : #tests }
-ListeChaineeTest >> testAjouterEnQueue [
+ListeChaineeTest >> testajouterenqueue [
 
 |monElement maListe| "defining 2 params"
 
@@ -16,12 +16,12 @@ monElement suivant: nil.
 maListe := ListeChainee new. "Creating list"
 maListe tete: monElement. 
 
-maListe AjouterEnQueue: 'B'. "adding new elemnt at the end"
+maListe ajouterenqueue: 'B'. "adding new elemnt at the end"
 self assert: maListe queue valeur equals: 'B' "checking if queue changed to value of new element since it is added in the End"
 ]
 
 { #category : #tests }
-ListeChaineeTest >> testAjouterEnTete [
+ListeChaineeTest >> testajouterentete [
 
 |monElement maListe| "defining 2 params"
 
@@ -32,12 +32,12 @@ monElement suivant: nil.
 maListe := ListeChainee new. "Creating list"
 maListe tete: monElement. 
 
-maListe AjouterEnTete: 3. "adding new elemnt in  the begining"
+maListe ajouterentete: 3. "adding new elemnt in  the begining"
 self assert: maListe tete valeur equals: 3 "checking if head changed to value of new element since it is added in the begining."
 ]
 
 { #category : #tests }
-ListeChaineeTest >> testCreatiionListeChainee [
+ListeChaineeTest >> testcreatiionlistechainee [
 
 |monElement maListe| "decaration of new params"
 
