@@ -9,7 +9,7 @@ Class {
 }
 
 { #category : #adding }
-ListeChainee >> ajouterenqueue: nouvelleValeur [
+ListeChainee >> ajouterEnQueue: nouvelleValeur [
 	
 	"Here we are creating a new element and setting the value inside"
 	
@@ -28,7 +28,7 @@ ListeChainee >> ajouterenqueue: nouvelleValeur [
 ]
 
 { #category : #adding }
-ListeChainee >> ajouterentete: nouvelleValeur [
+ListeChainee >> ajouterEnTete: nouvelleValeur [
 	"The purpose of this methd is to add an Element in the begining of a list; it takes a value, creates a new Node and insert it in the begining."
 
 	"here we are creating a new element to set the value inside"
